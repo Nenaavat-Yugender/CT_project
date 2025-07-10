@@ -1,16 +1,16 @@
-# 🍽️ Restaurant ChatBot App
+#  Restaurant ChatBot App
 
 A full-stack restaurant discovery web application integrated with a conversational AI chatbot to enhance the dining experience.
 
 This project enables users to:
 
-* 🔍 Discover restaurants by cuisine/location
-* 📋 View menus with detailed descriptions
-* 🗓 Book table reservations
-* 🛒 Place and track orders
-* 💬 Interact with an intelligent chatbot for queries
+*  Discover restaurants by cuisine/location
+*  View menus with detailed descriptions
+*  Book table reservations
+*  Place and track orders
+*  Interact with an intelligent chatbot for queries
 
-## 🌐 Tech Stack
+## Tech Stack
 
 | Layer     | Technology                       |
 | --------- | -------------------------------- |
@@ -22,7 +22,7 @@ This project enables users to:
 
 ---
 
-## 📆 Folder Structure
+##  Folder Structure
 
 ```
 /frontend           # React App
@@ -33,45 +33,45 @@ This project enables users to:
 
 ```
 src/
-🔼🔼 components/
-🔼🔼 pages/
-🔼🔼 services/api.js
-🔼🔼 context/AuthContext.jsx
-🔼 App.jsx
-🔼 main.jsx
+    components/
+    pages/
+    services/api.js
+    context/AuthContext.jsx
+    App.jsx
+    main.jsx
 ```
 
 ### Backend Highlights
 
 ```
 backend/
-🔼🔼 bot/
-🔼🔼 controllers/
-🔼🔼 models/
-🔼🔼 routes/
-🔼🔼 middlewares/
-🔼🔼 data/seed.js
-🔼🔼 config/db.js
-🔼 app.js
-🔼 server.js
+    bot/
+    controllers/
+    models/
+    routes/
+    middlewares/
+    data/seed.js
+    config/db.js
+    app.js
+    server.js
 ```
 
 ---
 
-## 🧠 ChatBot Features
+##  ChatBot Features
 
-* 🍽 **Find restaurants** by cuisine & location
-* 📋 **Browse menus**
-* 🗓 **Reserve tables**
-* 🛒 **Place & track orders**
-* 📦 **Personalized suggestions**
-* 💬 Built with [Microsoft Bot Framework](https://github.com/microsoft/botframework-sdk)
+*  **Find restaurants** by cuisine & location
+*  **Browse menus**
+*  **Reserve tables**
+*  **Place & track orders**
+*  **Personalized suggestions**
+*  Built with [Microsoft Bot Framework](https://github.com/microsoft/botframework-sdk)
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 🔧 Prerequisites
+###  Prerequisites
 
 * Node.js + npm
 * MongoDB (local or Atlas)
@@ -79,7 +79,7 @@ backend/
 
 ---
 
-## ✅ Frontend Setup
+##  Frontend Setup
 
 ```bash
 # 1. Create & Install Dependencies
@@ -106,7 +106,7 @@ npm run dev
 
 ---
 
-## ✅ Backend Setup
+##  Backend Setup
 
 ```bash
 cd backend
@@ -114,11 +114,11 @@ npm install
 npm install botbuilder restify
 ```
 
-### 🌱 Seed Restaurant Data
+###  Seed Restaurant Data
 
 ```bash
 node data/seed.js
-# ✅ Restaurant data seeded!
+#  Restaurant data seeded!
 ```
 
 ### Start Backend Server
@@ -133,20 +133,20 @@ npm run dev
 | Endpoint                     | Type | URL                                                                                                                                   |
 | ---------------------------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Get All Restaurants          | GET  | [http://localhost:5000/api/restaurants](http://localhost:5000/api/restaurants)                                                        |
-| Filter by Cuisine & Location | GET  | [http://localhost:5000/api/restaurants?cuisine=South](http://localhost:5000/api/restaurants?cuisine=South) Indian\&location=Hyderabad |
+| Filter by Cuisine & Location | GET  | [http://localhost:5000/api/restaurants?cuisine=South](http://localhost:5000/api/restaurants?cuisine=South)Indian\&location=Hyderabad |
 | User Register/Login          | POST | [http://localhost:5000/api/auth/register](http://localhost:5000/api/auth/register)                                                    |
 
 ---
 
-## 🤖 Bot Server Setup
+##  Bot Server Setup
 
 ```bash
 cd backend
 node bot/index.js
-# 🤖 Bot is running on http://localhost:3978/api/messages
+#  Bot is running on http://localhost:3978/api/messages
 ```
 
-### 🕪 Test with Bot Framework Emulator
+###  Test with Bot Framework Emulator
 
 1. Download from: [https://github.com/Microsoft/BotFramework-Emulator/releases](https://github.com/Microsoft/BotFramework-Emulator/releases)
 2. Open Emulator → Click "Open Bot"
@@ -154,7 +154,7 @@ node bot/index.js
 4. Leave Microsoft App ID & Password empty
 5. Click **Connect**
 
-💬 Try saying:
+ Try saying:
 
 ```
 Show me Chinese in Delhi
@@ -163,7 +163,7 @@ Find South Indian food in Hyderabad
 
 ---
 
-## 🔗 Frontend + ChatBot Integration
+##  Frontend + ChatBot Integration
 
 ### `ChatBot.jsx`
 
@@ -177,7 +177,7 @@ const directLine = window.WebChat.createDirectLine({
 
 ---
 
-## 📚 Helpful Resources
+##  Helpful Resources
 
 * [https://github.com/microsoft/botframework-sdk](https://github.com/microsoft/botframework-sdk)
 * [https://www.w3schools.com/MySQL/default.asp](https://www.w3schools.com/MySQL/default.asp)
@@ -187,16 +187,16 @@ const directLine = window.WebChat.createDirectLine({
 
 ---
 
-## ✨ Future Improvements
+##  Future Improvements
 
-* ✅ Google Maps integration for nearby restaurants
-* ✅ Real-time order tracking
-* ✅ Stripe or Razorpay payment gateway
-* ✅ Push notifications for order status
+*  Google Maps integration for nearby restaurants
+*  Real-time order tracking
+*  Stripe or Razorpay payment gateway
+*  Push notifications for order status
 
 ---
 
-## 👨‍💼 Author
+##  Author
 
 Built with ❤️ by **Nenavath Yugender**
 BTech, IIT Madras
